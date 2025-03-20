@@ -1,4 +1,4 @@
-<h1>Image Classification using Deep Learning (CIFAR-10)</h1>
+<h1>🚀 Image Classification using Deep Learning (CIFAR-10)</h1>
 
 <h3>📌 Overview</h3>
 This project implements an image classification model using deep learning and Convolutional Neural Networks (CNNs). The model is trained on the CIFAR-10 dataset, which consists of 60,000 color images categorized into 10 classes.
