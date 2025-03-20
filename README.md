@@ -12,3 +12,19 @@ The model is built using TensorFlow/Keras, with backpropagation for weight optim
 -Each image is 32x32 pixels, with 3 color channels (RGB).
 -Data is preprocessed by normalizing pixel values to the range [0,1] for better model performance.
 
+<h3>🏗 Model Architecture</h3>
+
+The CNN model follows a deep learning-based feature extraction approach:
+
+-Input Layer: 32x32 RGB images
+-Convolutional Layers:
+Conv2D layers with 32, 64, and 128 filters (3×3 kernels)
+Batch Normalization for stable training
+ReLU Activation for non-linearity
+MaxPooling (2×2) to reduce spatial dimensions
+
+-Fully Connected Layers:
+Flattening layer
+1024-neuron dense layer (ReLU)
+Dropout (0.2) to prevent overfitting
+Softmax output layer (10 categories)
